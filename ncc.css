@@ -1,0 +1,56 @@
+*{
+    padding: 0 auto;
+}
+
+.main{
+    display: flex;
+}
+
+.left{
+width: 10%;
+background-color: black;
+color: white;
+height: 700px;
+}
+.left ul{
+    padding: 0px;
+}
+
+.left ul li{
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid white;
+
+}
+ul :hover{
+    background: red;
+}
+
+
+.right{
+width: 90%;
+padding: 0px 100px;
+}
+
+.header{
+    text-align: center;
+}
+
+.tex{
+    background: rgb(178, 206, 207);
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.text1{
+    width: 200px;
+}
+
+
+.footerTex{
+    display: flex;
+}
+
+.text2{
+    padding: 0px 20px;
+}
